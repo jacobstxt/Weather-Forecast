@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather", "Weather\Weather.csproj", "{EF9086E3-3DEF-4811-B320-1C8494434CFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{A0B92F81-8A5F-413C-8636-15CE9040E7FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{B7223ECE-FD87-451B-8967-C66F2550F539}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF9086E3-3DEF-4811-B320-1C8494434CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9086E3-3DEF-4811-B320-1C8494434CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF9086E3-3DEF-4811-B320-1C8494434CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF9086E3-3DEF-4811-B320-1C8494434CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B92F81-8A5F-413C-8636-15CE9040E7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B92F81-8A5F-413C-8636-15CE9040E7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B92F81-8A5F-413C-8636-15CE9040E7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B92F81-8A5F-413C-8636-15CE9040E7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7223ECE-FD87-451B-8967-C66F2550F539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7223ECE-FD87-451B-8967-C66F2550F539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7223ECE-FD87-451B-8967-C66F2550F539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7223ECE-FD87-451B-8967-C66F2550F539}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

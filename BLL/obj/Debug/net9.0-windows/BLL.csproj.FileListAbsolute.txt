@@ -1,0 +1,17 @@
+C:\IT\NetworkProgramming\Weather\BLL\bin\Debug\net9.0-windows\BLL.deps.json
+C:\IT\NetworkProgramming\Weather\BLL\bin\Debug\net9.0-windows\BLL.dll
+C:\IT\NetworkProgramming\Weather\BLL\bin\Debug\net9.0-windows\BLL.pdb
+C:\IT\NetworkProgramming\Weather\BLL\bin\Debug\net9.0-windows\DAL.dll
+C:\IT\NetworkProgramming\Weather\BLL\bin\Debug\net9.0-windows\DAL.pdb
+C:\IT\NetworkProgramming\Weather\BLL\obj\Debug\net9.0-windows\BLL.csproj.AssemblyReference.cache
+C:\IT\NetworkProgramming\Weather\BLL\obj\Debug\net9.0-windows\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\IT\NetworkProgramming\Weather\BLL\obj\Debug\net9.0-windows\BLL.AssemblyInfoInputs.cache
+C:\IT\NetworkProgramming\Weather\BLL\obj\Debug\net9.0-windows\BLL.AssemblyInfo.cs
+C:\IT\NetworkProgramming\Weather\BLL\obj\Debug\net9.0-windows\BLL.csproj.CoreCompileInputs.cache
+C:\IT\NetworkProgramming\Weather\BLL\obj\Debug\net9.0-windows\BLL.csproj.Up2Date
+C:\IT\NetworkProgramming\Weather\BLL\obj\Debug\net9.0-windows\BLL.dll
+C:\IT\NetworkProgramming\Weather\BLL\obj\Debug\net9.0-windows\refint\BLL.dll
+C:\IT\NetworkProgramming\Weather\BLL\obj\Debug\net9.0-windows\BLL.pdb
+C:\IT\NetworkProgramming\Weather\BLL\obj\Debug\net9.0-windows\ref\BLL.dll
+C:\IT\NetworkProgramming\Weather\BLL\bin\Debug\net9.0-windows\BLL.runtimeconfig.json
+C:\IT\NetworkProgramming\Weather\BLL\obj\Debug\net9.0-windows\BLL.genruntimeconfig.cache

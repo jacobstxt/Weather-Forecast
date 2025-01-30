@@ -1,0 +1,14 @@
+C:\IT\NetworkProgramming\Weather\DAL\bin\Debug\net9.0-windows\DAL.deps.json
+C:\IT\NetworkProgramming\Weather\DAL\bin\Debug\net9.0-windows\DAL.dll
+C:\IT\NetworkProgramming\Weather\DAL\bin\Debug\net9.0-windows\DAL.pdb
+C:\IT\NetworkProgramming\Weather\DAL\obj\Debug\net9.0-windows\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\IT\NetworkProgramming\Weather\DAL\obj\Debug\net9.0-windows\DAL.AssemblyInfoInputs.cache
+C:\IT\NetworkProgramming\Weather\DAL\obj\Debug\net9.0-windows\DAL.AssemblyInfo.cs
+C:\IT\NetworkProgramming\Weather\DAL\obj\Debug\net9.0-windows\DAL.csproj.CoreCompileInputs.cache
+C:\IT\NetworkProgramming\Weather\DAL\obj\Debug\net9.0-windows\DAL.dll
+C:\IT\NetworkProgramming\Weather\DAL\obj\Debug\net9.0-windows\refint\DAL.dll
+C:\IT\NetworkProgramming\Weather\DAL\obj\Debug\net9.0-windows\DAL.pdb
+C:\IT\NetworkProgramming\Weather\DAL\obj\Debug\net9.0-windows\ref\DAL.dll
+C:\IT\NetworkProgramming\Weather\DAL\obj\Debug\net9.0-windows\DAL.csproj.AssemblyReference.cache
+C:\IT\NetworkProgramming\Weather\DAL\bin\Debug\net9.0-windows\DAL.runtimeconfig.json
+C:\IT\NetworkProgramming\Weather\DAL\obj\Debug\net9.0-windows\DAL.genruntimeconfig.cache
