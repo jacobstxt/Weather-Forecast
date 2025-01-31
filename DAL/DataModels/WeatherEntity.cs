@@ -10,8 +10,9 @@ namespace DLL.DataModels
     [Table("tbl_weather")]
     public class WeatherEntity
     {    
-        public int Id { get; set; }  
-        public DateTime Date { get; set; }  
+        public int Id { get; set; }
+        public DateTime Date { get; set; } = DateTime.UtcNow;
+
         public string Location { get; set; }  
         public float Temperature { get; set; }  
         public string WeatherCondition { get; set; }  

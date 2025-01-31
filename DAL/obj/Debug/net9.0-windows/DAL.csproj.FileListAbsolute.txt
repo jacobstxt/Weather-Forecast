@@ -12,3 +12,4 @@ C:\IT\NetworkProgramming\Weather\DAL\obj\Debug\net9.0-windows\ref\DAL.dll
 C:\IT\NetworkProgramming\Weather\DAL\obj\Debug\net9.0-windows\DAL.csproj.AssemblyReference.cache
 C:\IT\NetworkProgramming\Weather\DAL\bin\Debug\net9.0-windows\DAL.runtimeconfig.json
 C:\IT\NetworkProgramming\Weather\DAL\obj\Debug\net9.0-windows\DAL.genruntimeconfig.cache
+C:\IT\NetworkProgramming\Weather\DAL\obj\Debug\net9.0-windows\DAL.sourcelink.json

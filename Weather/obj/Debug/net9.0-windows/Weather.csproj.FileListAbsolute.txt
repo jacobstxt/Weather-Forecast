@@ -124,3 +124,7 @@ C:\IT\NetworkProgramming\Weather\Weather\bin\Debug\net9.0-windows\ru\Microsoft.C
 C:\IT\NetworkProgramming\Weather\Weather\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\IT\NetworkProgramming\Weather\Weather\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\IT\NetworkProgramming\Weather\Weather\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\IT\NetworkProgramming\Weather\Weather\obj\Debug\net9.0-windows\Weather.sourcelink.json
+C:\IT\NetworkProgramming\Weather\Weather\bin\Debug\net9.0-windows\BCrypt.Net-Next.dll
+C:\IT\NetworkProgramming\Weather\Weather\bin\Debug\net9.0-windows\BouncyCastle.Crypto.dll
+C:\IT\NetworkProgramming\Weather\Weather\bin\Debug\net9.0-windows\Newtonsoft.Json.dll

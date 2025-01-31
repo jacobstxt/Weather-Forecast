@@ -10,53 +10,46 @@
         WindowStartupLocation="CenterScreen">
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="0.2*"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
 
-        <!-- Заголовок -->
-        <TextBlock Text="Registration" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0"/>
+        <Border Background="White" CornerRadius="10" Width="350" Height="450" HorizontalAlignment="Center" VerticalAlignment="Center">
 
-        <!-- Форма для введення даних -->
-        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="300">
-
-            <!-- Лейбл для імені користувача -->
-            <TextBlock Text="User Name" FontSize="14" HorizontalAlignment="Left"/>
-            <TextBox x:Name="UserNameTextBox" 
+            <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="300">
+                <TextBlock Text="Registration" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Text="Please sign up to continue" FontSize="14" Foreground="#666" HorizontalAlignment="Center" Margin="0,5,0,20"/>
+                
+                <TextBlock Text="User Name" Foreground="#444" FontSize="16"  HorizontalAlignment="Left"/>
+                <TextBox x:Name="UserNameTextBox" 
                      Height="40" 
-                     BorderBrush="#4A90E2" BorderThickness="2" 
+                     BorderBrush="#999" BorderThickness="2" 
                      Padding="10,5" FontSize="16"                     
                      HorizontalAlignment="Stretch"
-                     Margin="10"/>
-
-            <!-- Лейбл для логіна -->
-            <TextBlock Text="Email" FontSize="14" HorizontalAlignment="Left"/>
-            <TextBox x:Name="EmailTextBox" 
+                     />
+                
+                <TextBlock Text="Email" Foreground="#444" FontSize="16" HorizontalAlignment="Left"/>
+                <TextBox x:Name="EmailTextBox" 
                      Height="40" 
-                     BorderBrush="#4A90E2" BorderThickness="2" 
+                     BorderBrush="#999" BorderThickness="2" 
                      Padding="10,5" FontSize="16"                  
-                     HorizontalAlignment="Stretch"
-                     Margin="10"/>
+                     HorizontalAlignment="Stretch"/>
 
-            <!-- Лейбл для пароля -->
-            <TextBlock Text="Password" FontSize="14" HorizontalAlignment="Left"/>
-            <PasswordBox x:Name="PasswordBox" 
+
+                <TextBlock Text="Password" Foreground="#444" FontSize="16"  HorizontalAlignment="Left"/>
+                <PasswordBox x:Name="PasswordBox" 
                          Height="40" 
-                         BorderBrush="#4A90E2" BorderThickness="2" 
+                         BorderBrush="#999" BorderThickness="2" 
                          Padding="10,5" FontSize="16" 
-                         HorizontalAlignment="Stretch"
-                         Margin="10"/>
+                         HorizontalAlignment="Stretch"/>
 
-            <!-- Кнопка реєстрації -->
-            <Button Content="Registration" 
+
+                <Button Content="Registration" 
                     Height="45" 
                     Background="#4A90E2" Foreground="White" 
                     FontSize="16" FontWeight="Bold" 
                     BorderBrush="#4A90E2" BorderThickness="2"
                     HorizontalAlignment="Stretch" 
                     Margin="0,10" Click="RegisterButton_Click"/>
-
-        </StackPanel>
+            </StackPanel>
+        </Border>
     </Grid>
+  
 </Window>

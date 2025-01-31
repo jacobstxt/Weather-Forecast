@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Org.BouncyCastle.Crypto.Generators;
+
 
 namespace Weather
 {
@@ -29,29 +31,42 @@ namespace Weather
 
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
-            string username = UsernameTextBox.Text;
+            string email = EmailTextBox.Text;
             string password = PasswordBox.Password;
 
             // Пошук користувача в базі
             using (var dbContext = new WeatherDBContext())
             {
-                var user = dbContext.User.FirstOrDefault(u => u.UserName == username);
-
-                // Якщо користувач не знайдений або паролі не збігаються
-                if (user == null)
+                var ValidEmail = dbContext.User.FirstOrDefault(u => u.Email == email);
+                               
+                if (ValidEmail == null)
                 {
-                    MessageBox.Show("Невірний логін або пароль");
+                    EmailTextBox.BorderBrush = Brushes.Red;
+                    EmailTextBox.BorderThickness = new Thickness(1);
+                    ErrorMessage.Text = "Невірний e-mail";
+                    ErrorMessage.Visibility = Visibility.Visible;
+                }
+               
+                else if ((!BCrypt.Net.BCrypt.Verify(password, ValidEmail.PasswordHash)))
+                {
+                    PasswordBox.BorderBrush = Brushes.Red;
+                    PasswordBox.BorderThickness = new Thickness(1);
+                    ErrorMessage.Text = "Невірний пароль";
+                    ErrorMessage.Visibility = Visibility.Visible;
                 }
                 else
                 {
-                    // Якщо все вірно, відкриваємо головне вікно
+                    EmailTextBox.ClearValue(BorderBrushProperty);
+                    EmailTextBox.ClearValue(BorderThicknessProperty);
+                    PasswordBox.ClearValue(BorderBrushProperty);
+                    PasswordBox.ClearValue(BorderThicknessProperty);
+                    ErrorMessage.Visibility = Visibility.Collapsed;
                     MainWindow mainWindow = new MainWindow();
                     mainWindow.Show();
                     this.Close();
                 }
             }
         }
-
 
 
         private void RegisterButton_Click(object sender, RoutedEventArgs e)

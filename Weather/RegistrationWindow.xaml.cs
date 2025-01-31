@@ -29,8 +29,6 @@ namespace Weather
             InitializeComponent();
         }
 
-
-
         private void RegisterButton_Click(object sender, RoutedEventArgs e)
         {
             string username = UserNameTextBox.Text;
@@ -52,7 +50,6 @@ namespace Weather
                     return;
                 }
 
-
                 string passwordHash = HashPassword(password);
 
                 // Додавання нового користувача
@@ -67,16 +64,15 @@ namespace Weather
                 dbContext.SaveChanges();
             }
 
-            MessageBox.Show("Реєстрація успішна!");
+            MessageBox.Show("Реєстрація успішна!");        
+            LoginWindow loginWindow = new LoginWindow();
+            loginWindow.Show();
             this.Close();
         }
 
-
-
-
         private string HashPassword(string password)
         {
-            return Convert.ToBase64String(Encoding.UTF8.GetBytes(password));
+            return  BCrypt.Net.BCrypt.HashPassword(password);
         }
 
 
