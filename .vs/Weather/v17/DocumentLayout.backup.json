@@ -7,18 +7,6 @@
       "RelativeMoniker": "D:0:0:{B7223ECE-FD87-451B-8967-C66F2550F539}|BLL\\BLL.csproj|solutionrelative:bll\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7223ECE-FD87-451B-8967-C66F2550F539}|BLL\\BLL.csproj|c:\\it\\networkprogramming\\weather\\bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7223ECE-FD87-451B-8967-C66F2550F539}|BLL\\BLL.csproj|solutionrelative:bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7223ECE-FD87-451B-8967-C66F2550F539}|BLL\\BLL.csproj|c:\\it\\networkprogramming\\weather\\bll\\modelsdto\\weatherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7223ECE-FD87-451B-8967-C66F2550F539}|BLL\\BLL.csproj|solutionrelative:bll\\modelsdto\\weatherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7223ECE-FD87-451B-8967-C66F2550F539}|BLL\\BLL.csproj|c:\\it\\networkprogramming\\weather\\bll\\modelsdto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7223ECE-FD87-451B-8967-C66F2550F539}|BLL\\BLL.csproj|solutionrelative:bll\\modelsdto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B7223ECE-FD87-451B-8967-C66F2550F539}|BLL\\BLL.csproj|c:\\it\\networkprogramming\\weather\\bll\\interfaces\\iweatherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7223ECE-FD87-451B-8967-C66F2550F539}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\iweatherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,8 +15,32 @@
       "RelativeMoniker": "D:0:0:{B7223ECE-FD87-451B-8967-C66F2550F539}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF9086E3-3DEF-4811-B320-1C8494434CFA}|Weather\\Weather.csproj|c:\\it\\networkprogramming\\weather\\weather\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EF9086E3-3DEF-4811-B320-1C8494434CFA}|Weather\\Weather.csproj|solutionrelative:weather\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A0B92F81-8A5F-413C-8636-15CE9040E7FB}|DAL\\DAL.csproj|c:\\it\\networkprogramming\\weather\\dal\\weatherdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B92F81-8A5F-413C-8636-15CE9040E7FB}|DAL\\DAL.csproj|solutionrelative:dal\\weatherdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B92F81-8A5F-413C-8636-15CE9040E7FB}|DAL\\DAL.csproj|c:\\it\\networkprogramming\\weather\\dal\\repositories\\weatherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B92F81-8A5F-413C-8636-15CE9040E7FB}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\weatherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B92F81-8A5F-413C-8636-15CE9040E7FB}|DAL\\DAL.csproj|c:\\it\\networkprogramming\\weather\\dal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B92F81-8A5F-413C-8636-15CE9040E7FB}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B92F81-8A5F-413C-8636-15CE9040E7FB}|DAL\\DAL.csproj|c:\\it\\networkprogramming\\weather\\dal\\datamodels\\weatherentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B92F81-8A5F-413C-8636-15CE9040E7FB}|DAL\\DAL.csproj|solutionrelative:dal\\datamodels\\weatherentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B92F81-8A5F-413C-8636-15CE9040E7FB}|DAL\\DAL.csproj|c:\\it\\networkprogramming\\weather\\dal\\datamodels\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B92F81-8A5F-413C-8636-15CE9040E7FB}|DAL\\DAL.csproj|solutionrelative:dal\\datamodels\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B92F81-8A5F-413C-8636-15CE9040E7FB}|DAL\\DAL.csproj|c:\\it\\networkprogramming\\weather\\dal\\constants\\appdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B92F81-8A5F-413C-8636-15CE9040E7FB}|DAL\\DAL.csproj|solutionrelative:dal\\constants\\appdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF9086E3-3DEF-4811-B320-1C8494434CFA}|Weather\\Weather.csproj|c:\\it\\networkprogramming\\weather\\weather\\pages\\sidebarpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EF9086E3-3DEF-4811-B320-1C8494434CFA}|Weather\\Weather.csproj|solutionrelative:weather\\pages\\sidebarpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,53 +64,14 @@
               "RelativeDocumentMoniker": "BLL\\Services\\WeatherService.cs",
               "ToolTip": "C:\\IT\\NetworkProgramming\\Weather\\BLL\\Services\\WeatherService.cs",
               "RelativeToolTip": "BLL\\Services\\WeatherService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T17:15:38.468Z",
+              "WhenOpened": "2025-02-01T18:26:35.085Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\IT\\NetworkProgramming\\Weather\\BLL\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\UserService.cs",
-              "ToolTip": "C:\\IT\\NetworkProgramming\\Weather\\BLL\\Services\\UserService.cs",
-              "RelativeToolTip": "BLL\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T17:15:31.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeatherDTO.cs",
-              "DocumentMoniker": "C:\\IT\\NetworkProgramming\\Weather\\BLL\\ModelsDTO\\WeatherDTO.cs",
-              "RelativeDocumentMoniker": "BLL\\ModelsDTO\\WeatherDTO.cs",
-              "ToolTip": "C:\\IT\\NetworkProgramming\\Weather\\BLL\\ModelsDTO\\WeatherDTO.cs",
-              "RelativeToolTip": "BLL\\ModelsDTO\\WeatherDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T17:15:30.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\IT\\NetworkProgramming\\Weather\\BLL\\ModelsDTO\\UserDTO.cs",
-              "RelativeDocumentMoniker": "BLL\\ModelsDTO\\UserDTO.cs",
-              "ToolTip": "C:\\IT\\NetworkProgramming\\Weather\\BLL\\ModelsDTO\\UserDTO.cs",
-              "RelativeToolTip": "BLL\\ModelsDTO\\UserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T17:15:28.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "IWeatherRepository.cs",
               "DocumentMoniker": "C:\\IT\\NetworkProgramming\\Weather\\BLL\\Interfaces\\IWeatherRepository.cs",
               "RelativeDocumentMoniker": "BLL\\Interfaces\\IWeatherRepository.cs",
@@ -106,12 +79,12 @@
               "RelativeToolTip": "BLL\\Interfaces\\IWeatherRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T17:15:24.113Z",
+              "WhenOpened": "2025-02-01T18:26:28.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\IT\\NetworkProgramming\\Weather\\BLL\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "BLL\\Interfaces\\IUserRepository.cs",
@@ -119,19 +92,97 @@
               "RelativeToolTip": "BLL\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T17:15:21.813Z",
+              "WhenOpened": "2025-02-01T18:26:27.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherDBContext.cs",
+              "DocumentMoniker": "C:\\IT\\NetworkProgramming\\Weather\\DAL\\WeatherDBContext.cs",
+              "RelativeDocumentMoniker": "DAL\\WeatherDBContext.cs",
+              "ToolTip": "C:\\IT\\NetworkProgramming\\Weather\\DAL\\WeatherDBContext.cs",
+              "RelativeToolTip": "DAL\\WeatherDBContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T18:26:14.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherRepository.cs",
+              "DocumentMoniker": "C:\\IT\\NetworkProgramming\\Weather\\DAL\\Repositories\\WeatherRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\WeatherRepository.cs",
+              "ToolTip": "C:\\IT\\NetworkProgramming\\Weather\\DAL\\Repositories\\WeatherRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\WeatherRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T18:26:10.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\IT\\NetworkProgramming\\Weather\\DAL\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\IT\\NetworkProgramming\\Weather\\DAL\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T18:26:08.305Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\IT\\NetworkProgramming\\Weather\\Weather\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Weather\\MainWindow.xaml",
-              "ToolTip": "C:\\IT\\NetworkProgramming\\Weather\\Weather\\MainWindow.xaml",
-              "RelativeToolTip": "Weather\\MainWindow.xaml",
+              "Title": "WeatherEntity.cs",
+              "DocumentMoniker": "C:\\IT\\NetworkProgramming\\Weather\\DAL\\DataModels\\WeatherEntity.cs",
+              "RelativeDocumentMoniker": "DAL\\DataModels\\WeatherEntity.cs",
+              "ToolTip": "C:\\IT\\NetworkProgramming\\Weather\\DAL\\DataModels\\WeatherEntity.cs",
+              "RelativeToolTip": "DAL\\DataModels\\WeatherEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T18:26:03.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\IT\\NetworkProgramming\\Weather\\DAL\\DataModels\\UserEntity.cs",
+              "RelativeDocumentMoniker": "DAL\\DataModels\\UserEntity.cs",
+              "ToolTip": "C:\\IT\\NetworkProgramming\\Weather\\DAL\\DataModels\\UserEntity.cs",
+              "RelativeToolTip": "DAL\\DataModels\\UserEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T18:26:02.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDatabase.cs",
+              "DocumentMoniker": "C:\\IT\\NetworkProgramming\\Weather\\DAL\\Constants\\AppDatabase.cs",
+              "RelativeDocumentMoniker": "DAL\\Constants\\AppDatabase.cs",
+              "ToolTip": "C:\\IT\\NetworkProgramming\\Weather\\DAL\\Constants\\AppDatabase.cs",
+              "RelativeToolTip": "DAL\\Constants\\AppDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T18:25:21.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SideBarPage.xaml",
+              "DocumentMoniker": "C:\\IT\\NetworkProgramming\\Weather\\Weather\\Pages\\SideBarPage.xaml",
+              "RelativeDocumentMoniker": "Weather\\Pages\\SideBarPage.xaml",
+              "ToolTip": "C:\\IT\\NetworkProgramming\\Weather\\Weather\\Pages\\SideBarPage.xaml",
+              "RelativeToolTip": "Weather\\Pages\\SideBarPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-01T17:14:28.656Z",
+              "WhenOpened": "2025-02-01T18:09:47.393Z",
               "EditorCaption": ""
             }
           ]
