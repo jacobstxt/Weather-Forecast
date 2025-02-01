@@ -9,8 +9,8 @@ namespace BLL.Interfaces
 {
     public interface IUserRepository
     {
-        Task<UserEntity> GetUserByUsernameAsync(string username);  // Отримати користувача за ім'ям
-        Task AddUserAsync(UserEntity user);  // Додати нового користувача
+        Task<UserEntity> GetUserByUsernameAsync(string username); 
+        Task AddUserAsync(UserEntity user);  
         Task UpdateUserAsync(UserEntity user);
         Task DeleteUserAsync(int userId);
     }

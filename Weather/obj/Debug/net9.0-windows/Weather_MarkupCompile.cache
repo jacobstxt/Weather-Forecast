@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP
 C:\IT\NetworkProgramming\Weather\Weather\App.xaml
-3-1147758336
+51485237113
 
-61581987474
+81606964405
 219-1901991871
-LoginWindow.xaml;MainWindow.xaml;RegistrationWindow.xaml;
+AboutProgramWindow.xaml;LoginWindow.xaml;MainWindow.xaml;Pages\SideBarPage.xaml;RegistrationWindow.xaml;
 
 False
 

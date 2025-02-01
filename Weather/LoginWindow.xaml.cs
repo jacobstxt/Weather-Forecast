@@ -34,7 +34,7 @@ namespace Weather
             string email = EmailTextBox.Text;
             string password = PasswordBox.Password;
 
-            // Пошук користувача в базі
+
             using (var dbContext = new WeatherDBContext())
             {
                 var ValidEmail = dbContext.User.FirstOrDefault(u => u.Email == email);

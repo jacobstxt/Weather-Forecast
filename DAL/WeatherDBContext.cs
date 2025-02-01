@@ -15,7 +15,7 @@ public class WeatherDBContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseNpgsql(AppDatabase.ConnectionString); // Підключення до PostgreSQL
+        optionsBuilder.UseNpgsql(AppDatabase.ConnectionString); 
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

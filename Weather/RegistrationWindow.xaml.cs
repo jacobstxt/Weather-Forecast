@@ -21,9 +21,6 @@ namespace Weather
     /// </summary>
     public partial class RegistrationWindow : Window
     {
-
-        WeatherDBContext db;
-
         public RegistrationWindow()
         {
             InitializeComponent();
@@ -35,24 +32,44 @@ namespace Weather
             string email = EmailTextBox.Text;
             string password = PasswordBox.Password;
 
-            // Перевірка чи вже існує користувач з таким логіном або email
+
+            if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
+            {
+                MessageBox.Show("Будь ласка, заповніть всі поля!", "Помилка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+
+            if (!IsValidEmail(email))
+            {
+                MessageBox.Show("Некоректний email!", "Помилка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+
+            if (!IsValidPassword(password))
+            {
+                MessageBox.Show("Пароль має містити щонайменше 8 символів, 1 цифру та 1 спеціальний символ!", "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+
             using (var dbContext = new WeatherDBContext())
             {
                 if (dbContext.User.Any(u => u.UserName == username))
                 {
-                    MessageBox.Show("Користувач з таким логіном вже існує");
+                    MessageBox.Show("Користувач з таким логіном вже існує","error", MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
 
                 if (dbContext.User.Any(u => u.Email == email))
                 {
-                    MessageBox.Show("Користувач з таким email вже існує");
+                    MessageBox.Show("Користувач з таким email вже існує","error",MessageBoxButton.OK,MessageBoxImage.Warning);
                     return;
                 }
 
                 string passwordHash = HashPassword(password);
 
-                // Додавання нового користувача
                 var newUser = new UserEntity
                 {
                     UserName = username,
@@ -64,7 +81,7 @@ namespace Weather
                 dbContext.SaveChanges();
             }
 
-            MessageBox.Show("Реєстрація успішна!");        
+            MessageBox.Show("Реєстрація успішна!","Succes",MessageBoxButton.OK,MessageBoxImage.Information);        
             LoginWindow loginWindow = new LoginWindow();
             loginWindow.Show();
             this.Close();
@@ -74,6 +91,36 @@ namespace Weather
         {
             return  BCrypt.Net.BCrypt.HashPassword(password);
         }
+
+        private void ReturnBT_Click(object sender, RoutedEventArgs e)
+        {
+            LoginWindow loginWindow = new LoginWindow();
+            loginWindow.Show();
+            this.Close();
+        }
+
+
+        private bool IsValidEmail(string email)
+        {
+            try
+            {
+                var addr = new System.Net.Mail.MailAddress(email);
+                return addr.Address == email;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+
+        private bool IsValidPassword(string password)
+        {
+            return password.Length >= 8 &&
+                   password.Any(char.IsDigit) &&
+                   password.Any(ch => !char.IsLetterOrDigit(ch));
+        }
+
 
 
     }

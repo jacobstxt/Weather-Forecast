@@ -15,6 +15,7 @@ using Newtonsoft.Json.Linq;
 using DLL;
 using DLL.DataModels;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using Weather.Pages;
 
 namespace Weather
 {
@@ -109,14 +110,27 @@ namespace Weather
                         string description = item["weather"][0]["description"].ToString();
                         string iconCode = item["weather"][0]["icon"].ToString();
 
-                        // Створюємо картку прогнозу
+
                         StackPanel forecastCard = new StackPanel
                         {
                             Orientation = Orientation.Horizontal,
                             Margin = new Thickness(10),
-                            Background = new SolidColorBrush(Colors.LightBlue),
                             Height = 80
                         };
+
+                        if (temp >= 10)
+                        {
+                            forecastCard.Background = new SolidColorBrush(Colors.Yellow); 
+                        }
+                        else if (temp < 10 && temp >= 5)
+                        {
+                            forecastCard.Background = new SolidColorBrush(Colors.LightBlue); 
+                        }
+                        else
+                        {
+                            forecastCard.Background = new SolidColorBrush(Colors.Blue);
+                        }
+
 
                         Image weatherIcon = new Image
                         {
@@ -143,17 +157,12 @@ namespace Weather
                         forecastCard.Children.Add(textStack);
                         ForecastStackPanel.Children.Add(forecastCard);
 
-                        // Збереження в базу
+  
                         using (var dbContext = new WeatherDBContext())
-                        {
-                            var existingWeather = dbContext.Weather
-                                .FirstOrDefault(w => w.Date == date && w.Location == city);
-
-                            if (existingWeather == null)
-                            {
-                                var newWeather = new WeatherEntity
+                        {                
+                               var newWeather = new WeatherEntity
                                 {
-                                    Date = date, // Зберігаємо як DateTimeOffset
+                                    Date = date,
                                     Temperature = (float)temp,
                                     Location = city,
                                     WeatherCondition = description
@@ -161,7 +170,6 @@ namespace Weather
 
                                 dbContext.Weather.Add(newWeather);
                                 dbContext.SaveChanges();
-                            }
                         }
                     }
                 }
@@ -178,15 +186,23 @@ namespace Weather
 
 
 
-        private void LogOutBT_Click(object sender, RoutedEventArgs e)
+      
+
+        private void SideBar_Click(object sender, RoutedEventArgs e)
         {
-            LoginWindow loginWindow = new LoginWindow();
-            loginWindow.Show();
-            this.Close();
+            TranslateTransform moveAnimation = new TranslateTransform();
+            MainFrame.RenderTransform = moveAnimation;
+
+            DoubleAnimation moveAnimationX = new DoubleAnimation
+            {
+                From = -250, 
+                To = 0, 
+                Duration = new Duration(TimeSpan.FromSeconds(0.4))
+            };
+
+            moveAnimation.BeginAnimation(TranslateTransform.XProperty, moveAnimationX);
+
+            MainFrame.Navigate(new SideBarPage());
         }
-
-
-
-
     }
 }

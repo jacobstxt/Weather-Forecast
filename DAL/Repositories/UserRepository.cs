@@ -18,27 +18,26 @@ namespace DLL.Repositories
             _context = context;
         }
 
-        // Отримати всі користувачів
+
         public async Task<List<UserEntity>> GetAllUsersAsync()
         {
             return await _context.User.ToListAsync();
         }
 
-        // Додати нового користувача
+
         public async Task AddUserAsync(UserEntity user)
         {
             _context.User.Add(user);
             await _context.SaveChangesAsync();
         }
 
-        // Оновити дані користувача
         public async Task UpdateUserAsync(UserEntity user)
         {
             _context.User.Update(user);
             await _context.SaveChangesAsync();
         }
 
-        // Видалити користувача
+
         public async Task DeleteUserAsync(int id)
         {
             var user = await _context.User.FindAsync(id);

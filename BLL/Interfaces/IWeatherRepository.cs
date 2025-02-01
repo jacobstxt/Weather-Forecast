@@ -9,8 +9,8 @@ namespace BLL.Interfaces
 {
     public interface IWeatherRepository
     {
-        Task<List<WeatherEntity>> GetWeatherDataAsync();  // Отримати всі дані про погоду
-        Task AddWeatherDataAsync(WeatherEntity weather);  // Додати нові дані про погоду
-        Task<WeatherEntity> GetWeatherByIdAsync(int id);  // Отримати запис про погоду за ідентифікатором
+        Task<List<WeatherEntity>> GetWeatherDataAsync();  
+        Task AddWeatherDataAsync(WeatherEntity weather); 
+        Task<WeatherEntity> GetWeatherByIdAsync(int id); 
     }
 }

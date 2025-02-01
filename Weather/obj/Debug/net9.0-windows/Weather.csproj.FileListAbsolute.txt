@@ -128,3 +128,7 @@ C:\IT\NetworkProgramming\Weather\Weather\obj\Debug\net9.0-windows\Weather.source
 C:\IT\NetworkProgramming\Weather\Weather\bin\Debug\net9.0-windows\BCrypt.Net-Next.dll
 C:\IT\NetworkProgramming\Weather\Weather\bin\Debug\net9.0-windows\BouncyCastle.Crypto.dll
 C:\IT\NetworkProgramming\Weather\Weather\bin\Debug\net9.0-windows\Newtonsoft.Json.dll
+C:\IT\NetworkProgramming\Weather\Weather\obj\Debug\net9.0-windows\Pages\SideBarPage.g.cs
+C:\IT\NetworkProgramming\Weather\Weather\obj\Debug\net9.0-windows\Pages\SideBarPage.baml
+C:\IT\NetworkProgramming\Weather\Weather\obj\Debug\net9.0-windows\AboutProgramWindow.g.cs
+C:\IT\NetworkProgramming\Weather\Weather\obj\Debug\net9.0-windows\AboutProgramWindow.baml
